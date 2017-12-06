@@ -1,17 +1,58 @@
+/*	===================
+		CSS RESET
+  	=================== */
+
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
+
+/*	======================
+		GLOBAL STYLES
+  	====================== */
  
 body{
-	background: url("/images/festival.jpg");
-	width: 100%;
-	font: arial;
+	font-family: arial;
+	font-size: 18px;
+	color: #232323;
 }
 
 h1 {
-	font-size: 50px;
+	color: #ffffff;
+	font-size: 80px;
 	text-align: center;
-	padding-top: 100px;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+
+/*	======================
+		INDIV STYLES
+  	====================== */
+
+#cover {
+	position: relative;
+}
+
+#introduction {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#slogan {
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#image-cover {
+	background color: rgba(76,175,80,0.5);
+	position: static;
 
 }
