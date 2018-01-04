@@ -1,0 +1,110 @@
+/*	===================
+		CSS RESET
+  	=================== */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*	======================
+		GLOBAL STYLES
+  	====================== */
+ 
+body{
+	font-family: arial;
+	font-size: 1em; /*1em = 16px*/
+	color: #fff;
+	background-color: #959DBF;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 5em;
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+/*.clear:after {
+	content:"";
+	display: block;
+	clear: both;
+}*/
+
+
+/*	======================
+		INDIVIDUAL STYLES
+  	====================== */
+
+#cover {
+	position: relative;
+}
+
+#introduction {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#slogan {
+	color: #ffffff;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+#image-cover {
+	background color: rgba(76,175,80,0.5);
+
+}
+
+.story {
+	width: 100%;
+	max-width: 35em;
+	margin: 0 auto;
+	background-color: magenta;
+}
+
+.story-left, .story-right {
+	width: 50%;
+}
+
+.story-left {
+	float: left;
+}
+
+.story-right {
+	float: right;
+}
+
+.media-left {
+	float:left;
+	width: 50%;
+}
+
+.media-right {
+	float: right;
+	width: 50%;
+}
+
+.story-blurb {
+    line-height: 1.5em;
+}
+
+.story-title {
+    font-size: 3em;
+
+
+/*.media-left {
+position: relative;
+right: -20px;
+}*/
+
+
+
+
