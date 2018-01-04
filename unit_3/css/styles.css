@@ -30,6 +30,12 @@ img {
 	width: 100%;
 }
 
+/*.clear:after {
+	content:"";
+	display: block;
+	clear: both;
+}*/
+
 
 /*	======================
 		INDIVIDUAL STYLES
@@ -58,7 +64,32 @@ img {
 }
 
 .story {
-	width: 35em;
+	width: 100%;
+	max-width: 35em;
+	margin: 0 auto;
+	background-color: magenta;
+}
+
+.story-left, .story-right {
+	width: 50%;
+}
+
+.story-left {
+	float: left;
+}
+
+.story-right {
+	float: right;
+}
+
+.media-left {
+	float:left;
+	width: 50%;
+}
+
+.media-right {
+	float: right;
+	width: 50%;
 }
 
 .story-blurb {
@@ -67,4 +98,13 @@ img {
 
 .story-title {
     font-size: 3em;
-}
+
+
+/*.media-left {
+position: relative;
+right: -20px;
+}*/
+
+
+
+
